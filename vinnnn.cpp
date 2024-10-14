@@ -28,9 +28,9 @@ int main()
 	coffeePriceUSD = coffeePriceUSD * 55.98;
 	milkPriceUSD = milkPriceUSD * 55.98;
 	
-	sugarPriceUSD = sugarPriceUSD * 21.14;
-	coffeePriceUSD = coffeePriceUSD * 5.59;
-	milkPriceUSD = milkPriceUSD * 4.02;
+	sugarPriceUSD = sugarPriceUSD / 21.14;
+	coffeePriceUSD = coffeePriceUSD / 5.59;
+	milkPriceUSD = milkPriceUSD / 4.02;
 	
 	double totalCostPHP = 0.00;
 	totalCostPHP = sugarPriceUSD + ricePricePound + sardinesPricePound + coffeePriceUSD + milkPriceUSD;
